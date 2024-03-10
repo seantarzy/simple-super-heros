@@ -37,7 +37,7 @@ body {
   justify-content: center; /* Center children vertically */
   display: flex;
   flex-direction: column;
-  background-image: url(/public/super-hero-bg.webp);
+  background-image: url(/super-hero-bg.webp);
   gap: 2em;
   /* Removed margin-top: 25%; to ensure it aligns properly at the top */
 }
@@ -101,6 +101,9 @@ body {
 
 .card content p {
   margin-bottom: 20px;
+  max-height: 200px;
+  margin: 0;
+  padding: 0;
 }
 
 .card content a {
@@ -130,6 +133,13 @@ h1 {
 .captain-marvel img {
   height: 95%;
   width: 55%;
+}
+
+.black-panther,
+.batman,
+.thor,
+.captain-marvel .content p {
+  font-size: 0.8rem;
 }
 
 .superman img {
