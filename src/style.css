@@ -37,7 +37,9 @@ body {
   justify-content: center; /* Center children vertically */
   display: flex;
   flex-direction: column;
+  background-color: black;
   background-image: url(/super-hero-bg.webp);
+  background-position: center;
   gap: 2em;
   /* Removed margin-top: 25%; to ensure it aligns properly at the top */
 }
